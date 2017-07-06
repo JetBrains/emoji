@@ -1,7 +1,7 @@
 {
   "name": "@jetbrains/emoji",
   "version": "1.0.1",
-  "description": "Jetbrains Emoji Library",
+  "description": "JetBrains Emoji Library",
   "files": [
     "dirname.js",
     "*.svg"
