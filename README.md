@@ -1,3 +1,3 @@
-Jetbrains Emoji Library
+JetBrains Emoji Library
 =======================
 
