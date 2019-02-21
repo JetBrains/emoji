@@ -12,10 +12,9 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "ci-publish": "^1.3.1",
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
-    "standard-version": "^4.4.0",
+    "standard-version": "^5.0.0",
     "svgo": "^0.7.2"
   },
   "config": {
@@ -26,6 +25,6 @@
   "scripts": {
     "commit": "git-cz",
     "prerelease:ci": "svgo -f src -o .",
-    "release:ci": "standard-version && git push --follow-tags origin master && ci-publish"
+    "release:ci": "standard-version && git push --follow-tags origin master && npm publish"
   }
 }
